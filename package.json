@@ -16,6 +16,7 @@
         "serialport": "^8.0.5"
     },
     "scripts": {
+        "postinstall": "bower install",
         "start": "node app.js"
     }
 }
