@@ -1,0 +1,21 @@
+{
+    "name": "NodeJsWebApplication",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "contributors": [],
+    "dependencies": {
+        "express": "^4.13.4",
+        "johnny-five": "^0.9.51",
+        "properties-reader": "*",
+        "serialport": "^8.0.5"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}

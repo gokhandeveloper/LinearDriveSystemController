@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tests</title>
+        <link rel="stylesheet" href="../bower_components/mocha/mocha.css" />
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="../bower_components/chai/chai.js"></script>
+        <script src="../bower_components/mocha/mocha.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="../bower_components/jquery-ui/themes/smoothness/jquery-ui.css" />
+        <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        <script src="../js/tools.js"></script>
+        <script src="../js/main.js"></script>
+        <script>mocha.setup('bdd');</script>
+        <script src="../js/asyncTests.js"></script>
+        <script>
+            mocha.run();
+        </script>
+     <div class="container bs-docs-container"> 
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4" style="display:none">
+
+                    <center>
+                        <h3>Machine #1</h3>
+                        <h4>Up</h4>
+                        <div id="machine1Yaxis" style="height: 200px;"></div>
+                        <h4>Down</h4>
+                        <span id="machine1YaxisLastDirection" class="label label-default" style="font-size:14px;">Last Direction : -</span>
+                        <span id="machine1YaxisNewPosition" class="label label-success" style="font-size:14px;">New Position : 0</span>
+                        <br>
+                        <br>
+                        <span id="machine1YaxisStepsMade" class="label label-info" style="font-size:14px;">Steps Made : -</span>
+                        <span id="machine1YaxisActualPosition" class="label label-warning" style="font-size:14px;">Actual Position : 0</span>
+                        <br>
+                        <button id="machine1YaxisSTART"
+                                type="button"
+                                class="btn btn-primary"
+                                style="margin-top: 10px;">
+                            Start
+                        </button>
+                        <button id="machine1YaxisSTOP"
+                                type="button"
+                                class="btn btn-danger"
+                                style="margin-top: 10px;">
+                            Stop
+                        </button>
+                    </center>
+                </div>
+
+
+            </div>
+        </div>   
+        
+        
+    </body>
+</html>
