@@ -16,7 +16,7 @@ https://openbuildspartstore.com/v-slot-nema-23-linear-actuator-belt-driven/
 
 ## Hardware:
 
-- Arduino Uno via USB (upload firmata sketch via Arduino IDE) or Arduino YUN via Ethernet or Wifi(use FIrmataEth for this).
+- Arduino Uno via USB (upload firmata sketch via Arduino IDE) or Arduino YUN via Ethernet or Wifi(use FirmataEth for this).
 - Linear actuator(Stepper motor 4 wired model is recommended).
 - Stepper motor controller with stall detection(This is recommended to stop the stepper motor if an unwanted object blocks the free movement of the mechanism for example human finger).
 - Separate power supply for stepper motor controller.
