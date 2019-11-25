@@ -2,6 +2,8 @@ This is a linear drive system web controller.
 It connects to any hardware which supports firmata protocol via johnny-five library.
 ![Image of Linear actuator controller](https://user-images.githubusercontent.com/10161605/69553378-13a42380-0fdb-11ea-8225-599cee14f61b.png)
 -------
+The slider represents the load(carriage) in real time.
+
 It also has asynchronous tests which run on the hardware in real time.
 
 It is mainly built to control the linear actuators like the one from Open Builds:
