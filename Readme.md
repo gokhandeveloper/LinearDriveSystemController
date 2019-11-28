@@ -11,7 +11,7 @@ It is mainly built to control the linear actuators like the one from Open Builds
 https://openbuildspartstore.com/v-slot-nema-23-linear-actuator-belt-driven/
 
 ## How to start
-- Connect your hardware via USB or Ethernet(depending where Firmata protocol is listening)
+- Connect your hardware via USB or Ethernet(depending on where Firmata protocol is listening)
 - `npm install` 
 - In the app directory run `node app.js` in the terminal
 - Run async tests by going to `localhost:8083/testsAsync.html` on your web browser
